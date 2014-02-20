@@ -245,6 +245,22 @@ hr {
 
 hr.small { margin: 1.5rem auto; }
 
+.circle-white {
+  border: 3px solid white;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: white;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  height: 3.2rem;
+  line-height: 1.7em;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  width: 3.2rem;
+}
+
 .circle {
   border: 3px solid #555;
   border-radius: 50%;
