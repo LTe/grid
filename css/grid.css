@@ -8,7 +8,7 @@
 }
 
 html {
-  font: 100%/1.5 "Open Sans", sans-serif;
+  font: 100%/1.5 "FontAwesome", sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -48,14 +48,12 @@ header {
 }
 
 header h1 {
-  border: 3px solid #fff;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   color: #fff;
   padding: .4rem .6rem;
   display: inline-block;
-  font-size: 1.8rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
@@ -327,9 +325,22 @@ img {
   font-weight: 600;
 }
 
+.grid .container-black span {
+  background: rgba(53, 22, 242, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .grid .container {
   border: 2px dashed rgba(255,255,255,0.3);
   padding: 1rem 1rem 0 1rem;
+}
+
+.grid .container-black {
+  border: 2px dashed rgba(42, 42, 42, 0.3);
 }
 
 @media (min-width: 40rem) {
@@ -452,6 +463,10 @@ img {
 
 .remove-padding { padding-bottom: 0; }
 .remove-border { border: none; }
+.left { text-align: left; }
+.deleted-red { color: #FF4136; display: inline; text-decoration: line-through; }
+.body span { height: 10em; }
+.handwrite { font-family: 'Indie Flower', cursive; }
 
 /* Clearfix by Nicolas Gallagher
    ========================================================================== */

@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="/css/normalize.css" type="text/css">
     <link rel="stylesheet" href="/css/grid.css" type="text/css">
     <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
+    <script src="/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -36,8 +37,7 @@
         <h1>Dlaczego powinieneś się tym przejmować?</h1>
         <p>Większość ludzi nie potrafi używać swojego konta pocztowego. 
           Przez to komunikacja staje się nieczytelna. 
-          Najczęściej problem pojawia się podczas konwersacji z wieloma osobami. 
-          Wiadomości są gubione, albo adresy wyciekają adresy email.</p>
+          Najczęściej problem pojawia się podczas konwersacji z wieloma osobami.</p>
       </div>
     </section>
 
@@ -45,25 +45,65 @@
       <div class="container">
         <div class="circle-white">1</div>
         <h1>Jak komunikować się z wieloma osobami za pomocą email?</h1>
-        <p>Każda wiadomość email zawiera pole <strong>Do</strong>. 
-          Jest to odbiorca do którego jest kierowana wiadomość. 
-          <strong>Pierwszym błędem</strong> jest wpisanie tam wszystkich osób, z którymi chcesz porozmawiać.
-        </p>
-        <hr>
-        <p>Powinieneś tam wpisać osobę, która jest adresatem wiadomości. 
-          Może się tam znaleźć tylko <strong>jedna osoba</strong>. 
-          Jeżeli każdy członek konwersacji jest równie ważny możesz pominąć to pole.</p>
+        <p>Każda wiadomość email zawiera pole <strong class='handwrite'>Do</strong>. 
+          W tym polu powinna się znaleźć osoba, która jest adresatem wiadomości. 
+          Powinien się tam znaleźć co najwyżej jeden adres email.</p>
       </div>
-      </div>
+      <section class="example grid">
+        <div class="container">
+
+          <div class="row clearfix">
+            <div class="column third left">
+              <span>Do</span>
+            </div>
+
+            <div class="column two-thirds left">
+              <span>Alicja (alicja@gmail.com) <div class='deleted-red'>Bob (bob@gmail.com)</div></span>
+            </div>
+
+            <div class="column full left body">
+              <span>Wiadomość</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
 
     <section>
       <div class='container'>
         <div class="circle">2</div>
         <h1>To gdzie mam wpisać resztę osób?</h1>
-        <p>Wszystkie adresy email, które nie znalazły się w polu <strong>Do</strong> powinny znaleźć się w sekcji <strong>Dw</strong>.
-           W ten sposób kopia wiadomości email zostanie wysłana również do tych osób.</p>
+        <p>Wszystkie adresy email, które nie znalazły się w polu <strong class='handwrite'>Do</strong> powinny znaleźć się w sekcji <strong class='handwrite'>Dw</strong>.
+          W ten sposób kopia wiadomości email zostanie wysłana również do tych osób.</p>
       </div>
+      <section class="grid">
+        <div class="container container-black">
+
+          <div class="row clearfix">
+            <div class="column third left">
+              <span>Do</span>
+            </div>
+
+            <div class="column two-thirds left">
+              <span>Alicja (alicja@gmail.com) <div class='deleted-red'>Bob (bob@gmail.com)</div></span>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="column third left">
+              <span>DW</span>
+            </div>
+
+            <div class="column two-thirds left">
+              <span>Bob (bob@gmail.com)</span>
+            </div>
+
+            <div class="column full left body">
+              <span>Wiadomość</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
 
     <section class="example">
@@ -71,20 +111,20 @@
         <div class="circle-white">3</div>
         <h1>Przecież to jest to samo!</h1>
         <p>Dzięki takiemu skomponowaniu wiadomości zyskujesz dodatkową funkcjonalność. 
-          Używając funkcji Odpowiedz wyślesz wiadomość <strong>TYLKO</strong> do nadawcy wiadomości. 
-          Jednak w przypadku kiedy będziesz chciał wysłać wiadomość do <strong>WSZYSTKICH</string> 
-          członków konwersacji, użyjesz opcji <strong>Odpowiedz wszystkim</strong>.</p>
+          Używając funkcji <strong class='handwrite'>Odpowiedz</strong> wyślesz wiadomość <strong>TYLKO</strong> do nadawcy wiadomości. 
+          Jednak w przypadku kiedy będziesz chciał wysłać wiadomość do <strong>WSZYSTKICH</strong>
+          członków konwersacji, użyjesz opcji <strong class='handwrite'>Odpowiedz wszystkim</strong>.</p>
         <hr>
-        <p>Gdyby pole <strong>DW</strong> byłoby puste jedyną możliwością odpowiedzi jest wysłanie wiadomości do wszystkich.</p>
+        <p>Gdyby pole <strong class='handwrite'>DW</strong> byłoby puste jedyną możliwością odpowiedzi jest wysłanie wiadomości do wszystkich.</p>
       </div>
     </section>
 
     <section>
       <div class="container">
         <div class="circle">4</div>
-        <h1>Używaj 'Odpowiedz wszystkim' jako domyślnej opcji odpowiedzi</h1>  
-        <p>W swoim kliencie pocztowym możesz ustawić, że domyślną formą odpowiedzi będzie wysłanie wiadomości do wszystkich członków konwersacji.
-           Co jest najczęstszym przypadkiem. Dodatkowo jeżeli będziesz prowadzić konwersację tylko z jedną osobą, odpowiedź zostanie wysłana tylko do niej.</p>
+        <h1>Używaj <span class='handwrite'>Odpowiedz wszystkim</span> jako domyślnej opcji odpowiedzi</h1>  
+        <p>W swoim kliencie pocztowym możesz ustawić opcję, że domyślną formą odpowiedzi będzie wysłanie wiadomości do wszystkich członków konwersacji.
+          Jest to najczęsztszy przypadek. Dodatkowo jeżeli będziesz prowadzić konwersację tylko z jedną osobą, odpowiedź zostanie wysłana tylko do niej.</p>
       </div>
     </section>
 
@@ -92,8 +132,46 @@
       <div class='container'>
         <div class="circle-white">5</div>
         <h1>Co jak nie chcę ujawniać adresów email?</h1>
-        <p>Wystarczy, że użyjesz pola <strong>UDW</strong>. Wtedy adres email z tego pola nie będą widoczne dla innych użytkowników konwersacji.</p>
+        <p>Wystarczy, że użyjesz pola <strong class='handwrite'>UDW</strong>. Wtedy adres email z tego pola nie będą widoczne dla innych użytkowników konwersacji.</p>
       </div>
+      <section class="grid">
+        <div class="container container">
+
+          <div class="row clearfix">
+            <div class="column third left">
+              <span>Do</span>
+            </div>
+
+            <div class="column two-thirds left">
+              <span>Alicja (alicja@gmail.com) <div class='deleted-red'>Bob (bob@gmail.com)</div></span>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="column third left">
+              <span>DW</span>
+            </div>
+
+            <div class="column two-thirds left">
+              <span>Bob (bob@gmail.com)</span>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="column third left">
+              <span>UDW</span>
+            </div>
+
+            <div class="column two-thirds left">
+              <span>Ewa (ewa@gmail.com)</span>
+            </div>
+
+            <div class="column full left body">
+              <span>Wiadomość</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   </body>
 </html>
