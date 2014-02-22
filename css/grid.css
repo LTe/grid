@@ -39,7 +39,7 @@ body {
 header {
   background-color: #497bad;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .intro { margin: 2rem 0; }
